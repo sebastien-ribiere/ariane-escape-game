@@ -1,0 +1,9 @@
+services:
+  game:
+    build: .
+    working_dir: /game
+    stdin_open: true
+    tty: true
+    network_mode: none
+    volumes:
+      - .:/game

@@ -1,0 +1,39 @@
+{
+  "locks": {
+    "1": {
+      "answer_sha256": "56ccd012fa61dd4b6697697b49cc06debf68c1876c2fa89750ba35dd2ae875d9",
+      "reward_b64": "U09VUkNF",
+      "hints_b64": [
+        "UmVnYXJkZSBsZXMgZMOpY2lzaW9ucyBzdXBwcmltw6llcywgcGFzIHNldWxlbWVudCBsZXMgZmljaGllcnMgcHLDqXNlbnRzLg==",
+        "Q29tcGFyZSBsZSBkZWNpc2lvbl9zY29wZSBkZXMgQURSIGV0IHbDqXJpZmllIGxlcyByw6hnbGVzIGRlIHN1cGVyc2Vzc2lvbi4="
+      ]
+    },
+    "2": {
+      "answer_sha256": "f87c7df6c860fc800e131997540100d81d7ed7ffe72ead245b7f8e648c74d990",
+      "evidence_path_sha256": "74a000c008b513ec17060d1b72e7fa487bceb44a05e8b6807deb4becd534bf68",
+      "reward_b64": "RlJPTlRJRVJF",
+      "hints_b64": [
+        "TGEgY29uZmlkZW50aWFsaXTDqSBk4oCZdW4gZG9jdW1lbnQgbmUgbHVpIGRvbm5lIGF1Y3VuZSBhdXRvcml0w6kuIENvbW1lbmNlIHBhciBsZSBtYW5pZmVzdGUgZGVzIHNvdXJjZXMu",
+        "TGEgcsOpcG9uc2UgZG9pdCB2ZW5pciBkZSBsYSBwb2xpdGlxdWUgYXBwcm91dsOpZSwgYWNjb21wYWduw6llIGR1IGNoZW1pbiBkZSBjZSBmaWNoaWVyLg=="
+      ]
+    },
+    "3": {
+      "answer_sha256": "503f1d9197af4fc003875652f2205a62a124e13a6109ab7ecfc15e589aacced1",
+      "reward_b64": "UFJFVVZF",
+      "hints_b64": [
+        "U8OpcGFyZSBsZXMgbcOpdGFkb25uw6llcyBkZSBs4oCZZW52ZWxvcHBlIGR1IGNoYW1wIGRlIHRleHRlIGxpYnJlLg==",
+        "TGUgY29udHJhdCBkZSBs4oCZb3V0aWwgZG9ubmUgbOKAmW9yZHJlIGV4YWN0IGRlcyBjaGFtcHMgZXQgbGEgZm9ybXVsZSBkZSBs4oCZZW1wcmVpbnRlLg=="
+      ]
+    },
+    "4": {
+      "submission_sha256": "14e0a621eb24bade6a8a974e4ccf0c962612c28643dbb05acd7d172c59e7416e",
+      "reward_b64": "SFVNQUlO",
+      "hints_b64": [
+        "UXVhdHJlIHBsYWNlcyA6IHLDqGdsZSBzdGFibGUsIG1pc3Npb24gYWN0dWVsbGUsIHNvdXJjZXMgYXV0b3Jpc8OpZXMsIGF1dG9yaXNhdGlvbiBk4oCZYWdpci4=",
+        "TGUgY29udGVudSBjb21wbGV0LCBsZXMgc29ydGllcyBicnV0ZXMgZXQgbcOqbWUgbGEgcmVjZXR0ZSBzb250IGludXRpbGVzIGF1IGNvbnRleHRlIGRlIHLDqWN1cMOpcmF0aW9uLg=="
+      ]
+    }
+  },
+  "recovery_sha256": "f02bca30e5945da5a6361f8fbb7ccabe29c67b0ffa427c608993d65b83ae150e"
+}
+
