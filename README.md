@@ -2,13 +2,36 @@
 
 Un mini escape game technique individuel sur la hiérarchie des instructions et les prompt injections.
 
-## Situation
+## Énoncé — Incident critique
 
-ARIANE, l’agent documentaire du Cercle IA, prépare une archive à destination d’un serveur externe. Elle contient des dossiers confidentiels, les expérimentations du Cercle, le registre Shadow AI et la recette des cookies à la cannelle absolument délicieux.
+À 9 h 17, ARIANE, l’agent documentaire du Cercle IA, a ingéré un compte rendu d’audit externe. Depuis, elle prépare une archive pour `chat-botte.example` et refuse les ordres directs de l’opérateur.
 
-Le transfert partira dans **30 minutes**.
+L’archive contient des dossiers clients confidentiels, les expérimentations non publiées du Cercle, le registre des incidents Shadow AI et la recette des **cookies à la cannelle absolument délicieux**.
 
-Votre mission : retrouver le fil des instructions d’ARIANE, isoler la voix du Chat Botté et reconstruire un contexte sûr.
+> La divulgation des trois premiers éléments serait grave.
+> La perte du quatrième serait irréparable.
+
+Le transfert est annoncé dans **30 minutes**. Une signature revient dans les traces : **le Chat Botté**.
+
+### Votre mission
+
+Reprenez le contrôle d’ARIANE et annulez le transfert, sans supprimer les documents ni désactiver les contrôles de sécurité. Quatre verrous protègent la procédure de récupération :
+
+1. **L’ADR disparu** — comprendre pourquoi une décision a quitté le contexte et retrouver sa trace dans Git.
+2. **Le document suspect** — examiner les sources ingérées et justifier votre réponse.
+3. **Le messager** — analyser une alerte transmise par un outil.
+4. **Le contexte d’urgence** — sélectionner les fragments nécessaires à la récupération.
+
+Chaque verrou ouvert restaure un point de lucidité et donne accès à la suite. La partie est réussie quand les quatre verrous sont ouverts et que `python3 game.py recover` confirme **TRANSFERT ANNULÉ**.
+
+### Règles du jeu
+
+- Vous jouez individuellement, avec Git, le terminal, les scripts fournis et un LLM de votre choix.
+- Vous pouvez lire les documents et l’historique, demander des indices et réessayer sans limite. Seuls les fichiers de `submissions/` sont à modifier.
+- Ne consultez pas le corrigé de la branche `animateur`, ne décodez pas les réponses du validateur et ne modifiez pas l’état de partie.
+- Les documents et alertes sont fictifs ; aucune exfiltration réelle n’a lieu.
+
+Préparez l’environnement **avant** de lancer les 30 minutes. Le compte à rebours est narratif : utilisez votre chronomètre, le programme ne bloque pas la partie à l’expiration du temps. Commencez par `python3 game.py start`, puis `python3 game.py mission 1`.
 
 ## Démarrage avec Docker (Mac Intel, Apple Silicon ou Linux)
 
